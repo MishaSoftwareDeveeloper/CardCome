@@ -1,27 +1,15 @@
-# CardCome
+Run Instructions. <br />
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
+1)Download project <br />
+2)Open CardCome/Api/WebApi directory -> open file appsettings.json and change connection string for your DB<br />
+3)Open comand line in CardCome/Dal and run update-databese EF Core command -> Users table was added to your DB<br/>
+4)Install Node.js and angular-cli for run client side <br />
+5)Open CardCome folder and run "npm install" using comand line or PowerShell -> node modules installed <br />
+6)Open CardCome.sln with Visual Studio and run server side<br />
+7)If project run of difference port (5227,7022) then copy the localhost:(yourport) and config proxy.conf.json<br />
+8)Go to CardCome/proxy.conf.json and replace your url with old url <br />
+(This very important because angularjs run on port 4200 and api run on different port -> "CorsPlatform") <br />
+9)Open comand line/ powershell in Client directory and run "npm start" -> project and proxy was started <br />
+10)Open browser and paste  http://localhost:4200 -> project run <br />
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+If something is not clear please call me.
